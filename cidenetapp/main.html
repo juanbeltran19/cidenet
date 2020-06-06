@@ -1,0 +1,151 @@
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<!--[if lt IE 9]><script src="js/vendor/html5shiv.js"></script><![endif]-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="ISO-8859-1">
+<meta name="description" content="">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src * 'self' data: gap: 'unsafe-inline' 'unsafe-eval';
+        style-src * 'self' 'unsafe-inline' 'unsafe-eval' gap:;
+        script-src * 'self' 'unsafe-inline' 'unsafe-eval' gap:; cdvfile://* 'unsafe-eval';">
+<meta id='viewport' name='viewport'
+	content="initial-scale=1, width=device-width, height=device-height,initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi,user-scalable=0, viewport-fit=cover">
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed'
+	rel='stylesheet' type='text/css'>
+<link href="css/main.css?v=52" rel="stylesheet" type="text/css">
+<link href="css/ios.css" rel="stylesheet" type="text/css">
+<title>Recolecta</title>
+<script src="js/mapgis_integracion_mobile.js"></script>
+<script src="js/B64.js"></script>
+<link rel="stylesheet" id="css_estilojqueryui_principal"
+	href="css/vendor/jquery_ui.css">
+<script id="js_jquery_principal" src="js/vendor/jquery/jquery1.9.1.js"></script>
+	<script id="js_jqueryui_principal" src="js/vendor/jquery/jquery-ui.js">
+</script>
+	<script src="js/hmac-md5.js"></script>
+	<script src="js/main.js?v=52"></script>
+	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>  
+</head>
+<body onresize="verMapaResize();">
+	<div id="div_login">
+		<div id="div_login_inner">
+			<div id="divLogo"></div>
+			<div class="div_campo_login">
+				<input name="id_Persona" id="id_Persona" value="" size="100"
+					maxlength="100" style=" font-weight: normal;" placeholder="Usuario">
+			</div>
+			<div class="div_campo_login">
+				<input name="password" type="password" id="password" value=""
+					size="100" maxlength="100" placeholder="Contrase&ntilde;a">
+			</div>
+			<div id="div_btnIngreasar">
+				<button id="btnIngreasar" type="button" onclick="ingresarBtn()"name="">INGRESAR</button>
+
+			</div>
+			<!--<div id="div_btnIngreasar">
+				<button id="btnBackup">Backup</button>
+			</div>-->
+			<img id="imgLoadingLogin" style="display:none;"
+				src="img/iconos/loading.gif">
+		</div>
+	</div>
+	<div id="div_inicio" style="display:none">
+		<div id="header">
+			<div id="div_title">
+				<button id="btnVolverHeader">
+					<img src="img/iconos/Volver.png">
+				</button>
+				<button id="btnSesion">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<div id="div_sesion">
+					<span></span>
+					<hr>
+					<button>Cerrar Sesi&oacute;n</button>
+				</div>
+				<span id="title_frente"><div id="divLogo2"></div></span>
+			</div>
+		</div>
+		<div id="introduccion">
+			<h1>Recolecta</h1>
+			Uno de los grandes retos en el d&iacute;a a d&iacute;a de las empresas es la adquisici&oacute;n o recolecci&oacute;n de informaci&oacute;n de forma estructurada, evitando los reprocesos y la digitaci&oacute;n, por esto SURA desarroll&oacute; un m&oacute;dulo de recolecci&oacute;n de informaci&oacute;n que permite crear formularios de forma din&aacute;mica para la recopilaci&oacute;n de informaci&oacute;n desde dispositivos m&oacute;viles o computadoras. Estos formularios a su vez permiten que a cada una de las preguntas se les asigne un peso o ponderaci&oacute;n en caso de requerir al finalizar el proceso una calificaci&oacute;n.
+		</div>	
+		<div id="combos">
+			<div class="div_cmb_encuesta" id="div_cmb_encuesta">
+				<span>Formulario:</span>
+				<div>
+					<select id="cmb_encuesta">
+						<option value="">-Seleccione-</option>
+					</select>
+				</div>
+			</div>
+			<div id="div_btnEncuesta">
+				<button id="btnImportEncuesta">
+					<img style="display:none;" src="img/iconos/Importar.png">
+						IMPORTAR FORMULARIO
+				</button>
+				<button id="btnEncuesta">
+					<img style="display:none;" src="img/iconos/Encuesta.png">
+						VER FORMULARIO
+				</button>
+				<img style="display:none;" src="img/iconos/loading.gif">
+			</div>
+		</div>
+		<div id="div_listImportEncuestas">
+			<div>
+				<span>Importar Formularios
+					<button class='actualizar' id="btnSyncEncuestas"></button>
+				</span>
+				<br><input id="filterListImportEncuestas" type="text">
+			</div>
+			<div id="listImportEncuestas"></div>
+		</div>
+		<div id="div_listEncuestas">
+			<div>
+				<span>Formularios Guardados Localmente
+					<button class='actualizar' id="btnSyncEncuestaDil"></button>
+				</span>
+<br><input id="filterListEncuestas" type="text">
+			</div>
+			<div id="listEncuestas"></div>
+			<div id="div_btnNuevaEncuesta">
+				<button id="btnNuevaEncuesta">
+					<img src="img/iconos/editarFormulario.png" style="display:none;">
+					DILIGENCIAR FORMULARIO
+				</button>
+				<img style="display:none;" src="img/iconos/loading.gif">
+			</div>
+		</div>
+	</div>
+	<div id="encuesta">
+		<div id="div_encuesta">
+			<iframe id="ifencuesta" src="LlenarEncuestas.html?v=52"></iframe>
+		</div>
+		<div id="div_botones">
+			<button id="btnVolver">
+				<img src="img/iconos/Volver.png">
+			</button>
+			<button id="btnVerMapa">
+				<img src="img/iconos/VerMapa.png">
+			</button>
+		</div>
+	</div>
+	<div id="mapa" style="display:none">
+		<div id="div_mapa">
+			<iframe id="ifmapa" src="" allow="geolocation"></iframe>
+		</div>
+	</div>
+	<div id="divLoading">
+		<img src="img/iconos/loading.gif">
+	</div>
+	<iframe id="ifArchivo" src="archivo.html?v=52"></iframe>
+	<iframe id="ifFirma" src="firmaDigital.html?v=52"></iframe>
+</body>
+</html>

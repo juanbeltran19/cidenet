@@ -1,0 +1,880 @@
+label {
+	font-size: 11px;
+	font-family: sans-serif;
+	width: 100%;
+	font-weight: bold;
+	height: auto;
+	margin: 0px;
+	color: #666;
+	text-align: left;
+	display: inline-block;
+	/* text-transform: capitalize; */
+}
+
+#acordionDetallePrincipal label {
+	margin-bottom: 5px;
+}
+
+body {
+	font-family: Helvetica;
+	font-size: 14px;
+	line-height: 1.428571429;
+	overflow: hidden;
+	height: auto;
+	color: #333;
+	background-color: rgba(247, 247, 246, 0);
+}
+
+html {
+	overflow-y: hidden !important;
+}
+
+html, body {
+	font-size: 15px;
+	height: 100%;
+	min-height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin: 0px;
+}
+
+div#divAcordionPrincipal {
+	padding: 5px 20px;
+	/* margin-top: 24px; */
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin-left: 5px;
+	-webkit-overflow-scrolling: auto;
+}
+
+#txt_nombreE {
+	width: 100%;
+	text-align: left;
+	color: #0033A0;
+	font-size: 12px;
+	font-style: italic;
+	border-bottom: 2px solid rgba(0, 174, 199, 0.51);
+}
+
+.clsNombre {
+	font-size: 12px;
+	font-family: sans-serif;
+	width: 100%;
+	font-weight: bold;
+	height: auto;
+	margin-left: 5px;
+	color: #666;
+	margin-right: 0px;
+	margin-top: 0px;
+	text-align: left;
+	display: inline-block;
+	/* text-transform: capitalize; */
+	font-weight: bold;
+}
+
+#txt_nombre {
+	width: 100%;
+	outline: none;
+}
+
+/***CSS DE CARACTERISTICAS*/
+.comboCar #cbo_caracteristicas {
+	width: 100%;
+	margin-bottom: -8px;
+}
+
+.clsDivDatos {
+	background: #f1f1f1;
+	margin-top: 10px;
+	overflow: hidden;
+	height: 321px;
+	overflow-y: auto;
+}
+
+.EncuestaCol1 {
+	padding: 0px 0px;
+}
+
+.EncuestaCol2 {
+	padding: 0px 0px 6px 2px;
+}
+
+div#acordionDetallePrincipal {
+	height: 342px;
+	overflow: auto;
+	-webkit-overflow-scrolling: auto;
+	padding: 0px;
+	top: 7px;
+	background: #f1f1f1;
+}
+
+input[type="text"], select {
+	height: 25px;
+}
+
+.buttonc {
+	margin: 8px 5px;
+}
+
+/***Botones***/
+.btnpuntoMapa, .btnPuntoMapa {
+	width: 30px;
+	height: 27px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	position: relative;
+	top: 7px;
+	margin-left: 5px;
+	background: url("../img/iconos/UbicarMapa.png") 0% 0%/contain no-repeat;
+	border-width: initial;
+	border-style: none;
+	border-color: initial;
+	background-repeat: no-repeat;
+	outline: none;
+}
+
+.btnpuntoMapa:hover, .btnPuntoMapa:hover {
+	opacity: 0.7;
+}
+
+.btnLineMapa, .btnLineFirma {
+	width: 30px;
+	height: 27px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	position: relative;
+	top: 7px;
+	margin-left: 5px;
+	background: url("../img/iconos/linea.png") 0% 0%/contain no-repeat;
+	border-width: initial;
+	border-style: none;
+	border-color: initial;
+	background-repeat: no-repeat;
+	outline: none;
+}
+
+.btnLineMapa:hover, .btnLineFirma:hover {
+	opacity: 0.7;
+}
+
+.btnpolMapa {
+	width: 30px;
+	height: 27px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	position: relative;
+	top: 7px;
+	margin-left: 5px;
+	background: url("../img/iconos/DPoligono.png") 0% 0%/contain no-repeat;
+	border-width: initial;
+	border-style: none;
+	border-color: initial;
+	background-repeat: no-repeat;
+	outline: none;
+}
+
+.btnpolMapa:hover {
+	opacity: .7;
+}
+
+.btnpuntoMapa, .btnPuntoMapa {
+	width: 30px;
+	height: 27px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	position: relative;
+	top: 7px;
+	margin-left: 5px;
+	background: url("../img/iconos/punto.png") 0% 0%/contain no-repeat;
+	border-width: initial;
+	border-style: none;
+	border-color: initial;
+	background-repeat: no-repeat;
+	outline: none;
+}
+
+.btnpuntoMapa:hover, .btnPuntoMapa:hover {
+	opacity: .7;
+}
+
+input[type="file"] {
+	display: inline-block;
+	width: 90%;
+	padding: 3px;
+}
+
+@media screen and (max-height: 580px) {
+	div#acordionDetallePrincipal {
+		height: 430px;
+	}
+}
+
+@media screen and (max-height: 560px) {
+	div#acordionDetallePrincipal {
+		height: 410px;
+	}
+}
+
+@media screen and (max-height: 540px) {
+	div#acordionDetallePrincipal {
+		height: 390px;
+	}
+}
+
+@media screen and (max-height: 520px) {
+	div#acordionDetallePrincipal {
+		height: 370px;
+	}
+}
+
+@media screen and (max-height: 500px) {
+	div#acordionDetallePrincipal {
+		height: 350px;
+	}
+}
+
+@media screen and (max-height: 480px) {
+	div#acordionDetallePrincipal {
+		height: 300px;
+	}
+}
+
+@media screen and (max-height: 460px) {
+	div#acordionDetallePrincipal {
+		height: 310px;
+	}
+}
+
+@media screen and (max-height: 440px) {
+	div#acordionDetallePrincipal {
+		height: 290px;
+	}
+}
+
+@media screen and (max-height: 424px) {
+	div#acordionDetallePrincipal {
+		height: 275px;
+	}
+}
+
+@media screen and (max-height: 410px) {
+	div#acordionDetallePrincipal {
+		height: 260px;
+	}
+}
+
+@media screen and (max-height: 400px) {
+	div#acordionDetallePrincipal {
+		height: 240px;
+	}
+}
+
+@media screen and (max-height: 380px) {
+	div#acordionDetallePrincipal {
+		height: 220px;
+	}
+}
+
+@media screen and (max-height: 360px) {
+	div#acordionDetallePrincipal {
+		height: 200px;
+	}
+}
+
+@media screen and (max-height: 340px) {
+	div#acordionDetallePrincipal {
+		height: 180px;
+	}
+}
+
+@media screen and (max-height: 320px) {
+	div#acordionDetallePrincipal {
+		height: 160px;
+	}
+}
+
+@media screen and (max-height: 300px) {
+	div#acordionDetallePrincipal {
+		height: 140px;
+	}
+}
+
+@media screen and (max-height: 280px) {
+	div#acordionDetallePrincipal {
+		height: 120px;
+	}
+}
+
+.inputArchivo {
+	display: inline-block;
+	width: 74%;
+}
+
+.subirArchivo {
+	width: 30px;
+	height: 27px;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	position: relative;
+	top: 7px;
+	margin-left: 5px;
+	background: url("../img/iconos/Cargar.png") 0% 0%/contain no-repeat;
+	border-width: initial;
+	border-style: none;
+	border-color: initial;
+	background-repeat: no-repeat;
+	outline: none;
+}
+
+.subirArchivo:hover {
+	opacity: .7;
+}
+
+.bajarArchivo {
+	width: 30px;
+	height: 27px;
+	display: inline-block;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	position: relative;
+	top: 10px;
+	margin-left: -4px;
+	background: url("../img/iconos/descargar.png") 0% 0%/contain no-repeat;
+	border-width: initial;
+	border-style: none;
+	border-color: initial;
+	background-repeat: no-repeat;
+	outline: none;
+}
+
+.bajarArchivo:hover {
+	opacity: .7;
+}
+
+.CARAC_HIJO2 {
+	display: none;
+}
+
+/**********************************************************************************************************/
+#divMenuLateral {
+	position: absolute;
+	top: 38px;
+	left: 0px;
+	width: 88%;
+	height: 97%;
+	overflow-y: auto;
+	z-index: 100000;
+	background: #ffffff;
+	box-shadow: 1px 2px 5px 3px #b7b7b7;
+	border-radius: 0px 20px 0px 0px;
+}
+
+#btnMenuLateral {
+	/* position: absolute; */
+	top: 65px;
+	margin-left: 20px;
+	width: 28px;
+	height: 30px;
+	overflow-y: none;
+	z-index: 999;
+	/* border-top-left-radius: 0px; */
+	/* background: beige; */
+	/* border-bottom-left-radius: 0px; */
+	cursor: pointer;
+	outline: none;
+	background-image: url(../img/iconos/menu-icon.png);
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: 3px 4px;
+}
+
+button.accordion {
+	background-color: #fff;
+	color: #444;
+	line-height: 35px;
+	cursor: pointer;
+	padding: 0px 45px 0px 34px;
+	width: 100%;
+	background-image: url(../img/iconos/carpeta.png);
+	background-size: 17px;
+	background-repeat: no-repeat;
+	text-align: left;
+	outline: none;
+	border: none;
+	border-radius: 0px;
+	font-size: 11px;
+	transition: 0.4s;
+	background-position: 35px 3px;
+	border-bottom-width: 1px;
+	border-top-color: rgba(243, 243, 243, 0.12);
+	border-top-style: solid;
+	border-top-width: 1px;
+	margin-bottom: 0px;
+}
+
+button.sinHijos {
+	background-image: url(../img/iconos/vineta.png);
+	background-size: 15px;
+}
+
+button.noOblick {
+	background-image: url(../img/iconos/ckEnc.png),
+		url(../img/iconos/vineta.png) !important;
+	background-size: 14px, 16px !important;
+	background-position: 19px 8px, 34px 6px !important;
+	padding: 0px 45px 0px 52px !important;
+	background-repeat: no-repeat !important;
+}
+
+button.accordion.active {
+	background-image: url(/../img/iconos/carpeta_a.png)
+}
+
+button.sinHijos.active {
+	background-image: url(../img/iconos/vineta.png);
+	background-size: 15px;
+}
+
+div.panel {
+	padding: 0px 0px 0px 16px;
+	display: none;
+	height: auto;
+	background-color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.panel.show {
+	display: block;
+}
+
+.NuevoG {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	float: right;
+	top: -3px;
+	right: -28px;
+	background-image: url(../img/iconos/Lapiz.png);
+	background-size: 17px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	top: 5px;
+}
+
+.NuevoG:hover {
+	opacity: .7;
+}
+
+.mostrarV {
+	display: block !important;
+}
+
+.titleG {
+	color: #0033a0;
+	font-size: 12px;
+	margin: 6px;
+	font-weight: bold;
+}
+
+.ckeRequeridoValidar {
+	position: relative;
+	top: 5px;
+	display: inline-block !important;
+	margin-top: 0px !important;
+	left: -30px;
+}
+
+.encabezadoV {
+	color: #2f2f2f;
+	font-size: 13px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#divBloque {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	position: absolute;
+	z-index: 800;
+	background: rgba(183, 183, 183, 0.47);
+	top: 0px;
+}
+
+button.accordioPadre {
+	padding: 0px 49px 0px 39px;
+	background-position: 14px 8px;
+}
+
+.clsFormula{	
+	width: 38% !important;
+}
+
+.btncalculo{	
+	width: 100px;
+	height: 24px;	
+	margin: 0px !important;	
+	margin-left: 4px !important;	
+	padding: 0px;	
+	background-color: #0033a0;	
+	float: right;	
+	right: 24px;	
+	position: relative;
+}
+
+.SeparadorEnc {
+    position: relative;
+    width: 100%;
+    border-top: 3px solid #b7b5b5;
+}
+
+body::-webkit-scrollbar, div#divAcordionPrincipal::-webkit-scrollbar {
+	-webkit-appearance: none;
+	width: 7px;
+}
+
+body::-webkit-scrollbar-thumb, div#divAcordionPrincipal::-webkit-scrollbar-thumb
+	{
+	border-radius: 4px;
+	background-color: rgba(37, 157, 187, 0.5);
+	-webkit-box-shadow: 0 0 1px rgba(37, 157, 187, 0.5);
+}
+
+.btnBuscarDir {
+	background: url("../img/iconos/BuscarG.png");
+}
+
+.btnVerMapa {
+	background: url("../img/iconos/VerMapaF.png");
+}
+
+.btnpuntoMapa, .btnPuntoMapa {
+	background: url("../img/iconos/punto_.png");
+}
+
+.btnpolMapa {
+	background: url("../img/iconos/linea.png");
+}
+
+.btnLineMapa {
+	background: url("../img/iconos/linea.png");
+}
+
+.btnLineFirma {
+	background: url("../img/iconos/firma.png");
+	background-size: 26px 27px;
+	background-repeat: no-repeat;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+.subirArchivo {
+	background: url("../img/iconos/Cargar.png") 0% 0%/contain no-repeat;
+}
+
+.subirArchivoAcc {
+    background: url("../img/iconos/Cargar.png") 0% 0%/contain no-repeat;
+}
+
+.bajarArchivo {
+	background: url("../img/iconos/descargar.png") 0% 0%/contain no-repeat;
+}
+
+.imgBajar {
+	background: url("../img/iconos/ver.png") 0% 0%/contain no-repeat;
+}
+
+.btnWatch {
+	background: url("../img/iconos/iniciar.png") 0% 0%/contain no-repeat;
+	on
+	/VerMapa.png);
+}
+
+.btnWatchStop {
+	background: url("../img/iconos/parar.png") 0% 0%/contain no-repeat;
+}
+
+.btnBuscarDir:disabled, .btnVerMapa:disabled, .btnpolMapa:disabled,
+	.btnLineMapa:disabled, .btnpuntoMapa:disabled, .btnPuntoMapa:disabled, .btnWatch:disabled {
+	opacity: 0.5;
+}
+
+.btnBuscarDir, .btnVerMapa, .btnpolMapa, .btnLineMapa, .btnpuntoMapa, .btnPuntoMapa,
+	.btnWatch {
+	vertical-align: text-bottom;
+}
+
+.acordeonVerde .quitar {
+	background: url("../img/iconos/quitarAcordeon.png";
+	background-size: cover;
+	);
+}
+
+.subirArchivo.foto {
+	background: url("../img/iconos/Adjuntar-foto.png");
+	background-size: cover;
+	width: 30px !important;
+	height: 30px;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#span_imagen_name>button {
+	background: url("../img/iconos/Eliminar_Foto.png");
+	height: 30px;
+	width: 30px;
+	background-size: cover;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+#span_imagen_name>button:disabled {
+	opacity: .5;
+}
+
+#span_imagen_name>span {
+	color: #0033a0;
+	text-decoration: underline;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+	margin: auto;
+	display: block;
+	max-width: 90%;
+}
+
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+body {
+	padding-top: 10px;
+	box-sizing: border-box;
+	height: 100%;
+}
+
+#divAcordionPrincipal {
+	height: auto;
+	box-sizing: border-box;
+	position: relative;
+}
+
+body {
+	height: 100%;
+	box-sizing: border-box;
+	padding-bottom: 125px;
+}
+
+#acordionDetallePrincipal {
+	max-height: 100% !important;
+	height: auto !important;
+	padding-bottom: 30px !important;
+}
+
+#combodatosc {
+	height: 100%;
+}
+
+#btnMenuLateral {
+	background-image: url(../img/iconos/menu-icon.png);
+}
+
+button.accordion {
+	background-image: url(../img/iconos/carpeta.png);
+}
+
+button.sinHijos {
+	background-image: url(../img/iconos/vineta.png);
+}
+
+button.accordion.active {
+	background-image: url(../img/iconos/carpeta_a.png);
+}
+
+button.sinHijos.active {
+	background-image: url(../img/iconos/vineta.png);
+}
+
+.NuevoG {
+	background-image: url(../img/iconos/Lapiz.png);
+}
+
+#divBtnGuardar {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background: #ccc;
+}
+
+.clsDivDatos {
+	height: auto;
+}
+
+button.noOblick {
+	background-position: 19px 8px, 44px 6px !important;
+	background-size: 24px, 26px !important;
+	padding: 0px 45px 0px 72px !important;
+}
+
+button.accordion {
+	padding: 0px 49px 0px 39px;
+	background-size: 22px;
+}
+
+button.sinHijos, button.sinHijos.active {
+	padding: 0px 49px 0px 39px;
+	background-size: 25px;
+	background-position: 35px 5px;
+	border-radius: 0px 20px 0px 0px;
+}
+
+button.sinHijos.ObliTotal, button.sinHijos.active.ObliTotal {
+	background-position: 11px 3px;
+}
+
+input[type="checkbox"] {
+	width: 24px;
+	height: 24px;
+}
+
+#divBtnGuardar button{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	margin-top: 0px !important;
+	margin-bottom: 5px !important;
+	text-transform: uppercase;
+}
+
+#divBtnGuardar>div:first-child>div:first-child>button:first-child{
+	margin-top: 10px !important;
+}
+
+#divBtnGuardar>div:last-child>div:last-child>button:last-child{
+	margin-bottom: 10px !important;	
+}
+#btnant, #btnsig {
+    width: 40px;
+}
+
+#divBtnGuardar .button{
+	font-size: 10px;
+}
+
+#txtCoordenadas {
+    padding-top: 5px;
+}
+#txtCoordenadas>span>span {
+    font-size: 10px;
+    color: #888;
+    font-style: italic;
+}
+
+table.form-control {
+	background: none;
+}
+
+.ocultarVariable{
+	display: none;
+	position: initial;
+}
+/*Auto complementar*/
+.ui-autocomplete {
+	background: #fff;
+	font-size: 13px;
+	margin-top: -2px;
+	border-left: 1px solid rgba(0, 0, 0, 0.15);
+	border-right: 1px solid rgba(0, 0, 0, 0.15);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 0 0 15px 15px;
+	padding: 0.5rem 0;
+    box-shadow: 0px 4px 3px 1px #00000021;
+    list-style: none;
+    z-index: 1;
+    width: 388px !important;
+}
+
+.ui-autocomplete .ui-menu-item-wrapper {
+	padding: 0 0.75rem;
+	border-radius: 0 0 4px 4px;
+	position: absolute;
+	width: 100%;
+}
+
+.ui-autocomplete li {
+    height: 19px;
+}
+
+.ui-autocomplete .ui-state-active {
+	background: #dedede;
+}
+.ui-menu-item{
+	list-style:none;
+}
+.ui-menu-item a{
+	color: black;
+	font-weight: normal;
+	text-decoration: blink;
+}
+.ui-helper-hidden-accessible{
+	display: none;
+}
+
+input{
+	border-radius: 20px !important;
+}
+
+.iconosDireCoor{
+	top: -5px !important;
+}
+
+button{
+	outline:none;
+}

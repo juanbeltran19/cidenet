@@ -1,0 +1,672 @@
+#div_login:after {
+	content: "v0.3.05";
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+    color: #ccc;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+button:disabled {
+	opacity: 0.5;
+}
+
+#header {
+	box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+#div_login {
+	width: 100%;
+	height: 100%;
+	background-color: #0033A0;
+	text-align: center;
+}
+
+#div_login_inner {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	margin-top: -138px;
+}
+
+.div_campo_login>input {
+	width: 100%;
+	border-radius: 20px;
+	padding: 4px;
+	height: 34px;
+	outline: none !important;
+}
+
+#password, #id_persona {
+	padding-left: 25px;
+	background-repeat: no-repeat;
+	background-position: 2px 4px;
+}
+
+#password {
+	background-image: url("../img/iconos/Contrasena-inicio.png");
+}
+
+#id_persona {
+	background-image: url("../img/iconos/Usuario_Inicio.png");
+}
+
+#div_sesion>span {
+	padding-left: 25px;
+	background-repeat: no-repeat;
+	background-image: url("../img/iconos/user-2.png");
+}
+
+#div_sesion>button {
+	padding-left: 25px;
+	background: none;
+	background-image: url("../img/iconos/CerrarSesion.png");
+	background-repeat: no-repeat;
+	border: none;
+	height: 20px;
+	font-size: inherit;
+	font-family: inherit;
+}
+
+#btnIngreasar, #btnIngreasarRegistro {
+	background: #00AEC7 !important;
+	color: #fff !important;
+	width: 100%;
+}
+
+#div_btnIngreasar>img, #div_btnIngreasarRegistro >img {
+	margin-top: 30px
+}
+
+#div_logoGob {
+	height: 96px;
+	position: absolute;
+	text-align: center;
+}
+
+#header_der {
+	position: absolute;
+	right: 0;
+	height: 48px;
+}
+
+#spacerHead {
+	height: 48px;
+}
+
+#div_title {
+	background-color: #0033A0;
+	text-align: left;
+	height: 60px;
+	padding-right: 60px;
+	position: relative;
+}
+
+#title_frente {
+	font-size: 30px;
+	line-height: 48px;
+	color: #3bb6d5;
+	text-align: left;
+	font-weight: bold;
+	padding-left: 15px;
+}
+
+#title_frente>img {
+	padding-top: 5px;
+	max-height: 50px;
+	text-align: left;
+}
+
+#title_fondo {
+	font-size: 24px;
+	line-height: 48px;
+	color: #98be93;
+	padding-left: 48px;
+}
+
+.icon-bar {
+	display: block;
+	width: 100%;
+	height: 2px;
+	border-radius: 1px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+.icon-bar+.icon-bar {
+	margin-top: 4px;
+}
+
+#btnSesion {
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	background: none;
+	right: 0px;
+	top: 0px;
+	border: none;
+}
+
+#btnVolverHeader {
+	display: none;
+	vertical-align: middle;
+	background: none;
+	border: none;
+	position: absolute;
+	left: 0px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	margin: 10px;
+}
+
+#div_sesion {
+	position: absolute;
+	right: 0px;
+	top: 100%;
+	background: #fff;
+	border: 1px solid #aaa;
+	z-index: 100;
+	padding: 10px;
+	display: none;
+	text-align: left;
+	border-radius: 0px 0px 0px 20px;
+}
+
+#introduccion {
+	color: #7d7e7c;
+	font-size: 12px;
+	padding: 0 30px 20px 30px;
+	text-align: center;
+	position: absolute;
+	top: 60px;
+	bottom: 143px;
+	overflow: auto;
+	-webkit-overflow-scrolling: auto;
+}
+
+#introduccion>h1 {
+	color: #064a5b;
+	font-size: 24px;
+}
+
+.div_campo_login {
+	width: 100%;
+	text-align: center;
+	padding: 5px 20px;
+	box-sizing: border-box;
+}
+
+#div_cmb_encuesta {
+	background: #00b1c7;
+}
+
+.div_cmb_encuesta {
+	width: 100%;
+	vertical-align: middle;
+	line-height: 35px;
+	font-size: 24px;
+	color: #464745;
+	background: #0033A0;
+}
+
+.div_cmb_encuesta div, .div_cmb_encuesta select, .div_cmb_encuesta option
+	{
+	background: inherit !important;
+	border-radius: 0 !important;
+}
+
+.div_cmb_encuesta>span {
+	padding-left: 10px;
+	float: left;
+	color: #fff;
+}
+
+.div_cmb_encuesta>div {
+	overflow: hidden;
+	padding: 0 10px 0 10px;
+}
+
+.div_cmb_encuesta select {
+	width: 100%;
+	border: 0;
+	height: 35px;
+	line-height: 35px;
+	font-size: 12px;
+	color: #464745;
+	outline: none !important;
+}
+
+#cmb_encuesta:disabled {
+	color: rgba(255, 255, 255, 0.2) !important;
+	font-size: 18px;
+	color: #000;
+}
+
+#div_btnEncuesta, #div_btnIngreasar, #div_btnIngreasarRegistro,
+	#div_btnNuevaEncuesta {
+	text-align: center;
+	padding: 10px 20px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#btnEncuesta:disabled, #btnImportEncuesta:disabled {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+#btnEncuesta, #btnIngreasar, #btnIngreasarRegistro, #btnNuevaEncuesta,
+	#btnImportEncuesta, #divMensaje>button {
+	height: 37px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 20px;
+	background-color: #0033A0;
+	border: solid 1px #9a9a9a;
+	background-image: -webkit-linear-gradient(bottom, #bababa, #dfdfdd);
+	background-image: -moz-linear-gradient(bottom, #bababa, #dfdfdd);
+	background-image: -o-linear-gradient(bottom, #bababa, #dfdfdd);
+	background-image: linear-gradient(to top, #0033A0, #0033A0);
+	font-weight: bold;
+	outline: 0px;
+	cursor: pointer;
+	font-family: Trebuchet MS;
+	font-size: 13px;
+	color: #E3E829;
+	padding: 12px 15px;
+	line-height: 13px;
+}
+
+#combos {
+	width: 100%;
+}
+
+@media ( min-height : 425px) {
+	#combos {
+		position: absolute;
+		bottom: 0;
+	}
+}
+
+@media ( max-height : 426px) {
+	#combos {
+		position: relative;
+	}
+}
+
+#div_listEncuestas, #div_listImportEncuestas {
+	position: absolute;
+	bottom: 0px;
+	top: 60px;
+	overflow: hidden;
+	width: 100%;
+	padding-bottom: 54px;
+	box-sizing: border-box;
+	display: none;
+}
+
+#div_btnNuevaEncuesta {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#mapa, #encuesta {
+	display: none;
+}
+
+#mapa {
+	height: 50%;
+}
+
+#div_mapa, #div_encuesta, #div_botones {
+	width: 100%;
+}
+
+#ifmapa, #ifencuesta, #ifArchivo, #ifFirma {
+	width: 100%;
+	height: 100%;
+	border: 0;
+	display: block;
+	overflow: auto;
+}
+
+#ifArchivo, #ifFirma {
+	position: absolute;
+	display: none;
+}
+
+#ifFirma {
+	overflow: hidden;
+	-webkit-transform: rotate(-90deg);
+	-webkit-transform-origin: top left;
+	margin-top: 100vh;
+	margin-left: 0vh;
+	width: 100vh;
+	height: 100vw;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+#div_mapa, #div_encuesta {
+	position: absolute;
+	top: 0px;
+	bottom: 40px;
+	overflow: auto;
+	border-right: 0;
+}
+
+#div_mapa {
+	top: 50%;
+	border-top: 2px solid;
+}
+
+#div_botones {
+	position: absolute;
+	height: 40px;
+	bottom: 0px;
+	background: #00AEC7;
+}
+
+#div_botones>button {
+	vertical-align: middle;
+	background: none;
+	border: none;
+}
+
+#div_botones>a {
+	background-color: rgba(240, 255, 255, 0.66);
+	padding: 2px;
+	border-radius: 3px;
+	font-size: 10px;
+	font-weight: bold;
+	left: 8px;
+	color: #000;
+	cursor: pointer;
+	line-height: 40px;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+
+#btnVerMapa:disabled {
+	opacity: 0.5;
+}
+
+#div_botones>span {
+	font-size: 12px;
+	float: right;
+	line-height: 40px;
+	padding-right: 10px;
+}
+
+#listEncuestas>div, #listImportEncuestas>div {
+	list-style: none;
+	border: none;
+	border-bottom: 1px solid #aaa;
+	width: 100%;
+	padding: 15px 0px;
+	box-sizing: border-box;
+	background: none;
+	text-align: left;
+	line-height: 30px;
+}
+
+#listEncuestas, #listImportEncuestas {
+	padding: 0px 20px 20px 20px;
+	position: absolute;
+	width: 100%;
+	bottom: 54px;
+	top: 70px;
+	box-sizing: border-box;
+	margin: 0px;
+	overflow: auto;
+}
+
+#listEncuestas>div:last-child, #listImportEncuestas>div:last-child {
+	border-bottom: 0px;
+}
+
+#listImportEncuestas {
+	bottom: 0px;
+}
+
+#divLoading {
+	display: none;
+	position: absolute;
+	z-index: 10000;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.5;
+	text-align: center;
+}
+
+#divLoading>img {
+	vertical-align: middle;
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+}
+
+#div_listImportEncuestas>div:first-child, #div_listEncuestas>div:first-child
+	{
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#listImportEncuestas>div>button, #listEncuestas>div>button,
+	#btnSyncEncuestas, #btnSyncEncuestaDil {
+	float: right;
+	background: none;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	width: 30px;
+	height: 30px;
+}
+
+#listImportEncuestas>div>.actualizar, #btnSyncEncuestas, #listEncuestas>div>.actualizar,
+	#btnSyncEncuestaDil {
+	background-image: url("../img/iconos/Actualizar.png");
+}
+
+#listImportEncuestas>div>.eliminar, #listEncuestas>div>.eliminar {
+	background-image: url("../img/iconos/Eliminar.png");
+}
+
+#listImportEncuestas>div>.actualizar.cargar, #listEncuestas>div>.actualizar.cargar
+	{
+	background-image: url("../img/iconos/Cargar_.png");
+}
+
+#listEncuestas>div>.diligenciar {
+	background-image: url("../img/iconos/ContinuarEncuesta.png");
+}
+
+#listEncuestas>div>.diligenciar.cargar {
+	background-image: url("../img/iconos/Enviar-Archivos.png");
+}
+
+#btnSyncEncuestas, #btnSyncEncuestaDil {
+	float: none;
+}
+
+#btnSyncEncuestas:disabled, #btnSyncEncuestaDil:disabled {
+	opacity: 0.5;
+	vertical-align: middle;
+}
+
+#divLogo, #divLogo2 {
+	display: inline-block;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+}
+
+#divLogo {
+	background-image: url(../img/logos/LogoSura_G.png);
+	min-height: 125px;
+	min-width: 342px;
+	background-size: contain;
+}
+
+#divLogo2 {
+	background-image: url(../img/logos/LogoSura_P.png);
+	background-size: contain;
+	background-position: left center;
+}
+
+#divMensaje button, #divMensajeGuardar button {
+	display: block;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #0033A0;
+	border: solid 1px #9a9a9a;
+	background-image: -moz-linear-gradient(bottom, #bababa, #dfdfdd);
+	background-image: -o-linear-gradient(bottom, #bababa, #dfdfdd);
+	background-image: linear-gradient(to top, #0033A0, #0033A0);
+	font-weight: bold;
+	outline: 0px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-family: Trebuchet MS;
+	font-size: 11px;
+	margin: auto;
+	margin-top: 20px;
+	height: 30px;
+	line-height: 2px;
+}
+
+#divMensaje, #divMensajeGuardar {
+	position: absolute;
+	background: white;
+	z-index: 10000;
+	top: 35%;
+	left: 5%;
+	width: 90%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#divMensajeGuardar button{
+	margin-top: 0px;
+}
+
+#divMensaje img {
+	max-width: 30%;
+	margin-top: 20px;
+}
+
+#divMensajeGuardar {
+	padding: 0px !important;
+	padding-bottom: 10px !important;
+}
+
+.iconGuardando, .iconGuardandoOK, .iconGuardandoError {
+	width: 30px;
+	margin-left: 5px;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: 5px;
+	float: right;
+}
+
+.iconGuardando {
+	background-image: url('../img/iconos/loading.gif');
+}
+
+.iconGuardandoOK {
+	background-image: url('../img/iconos/checked.png');
+}
+
+.iconGuardandoError {
+	background-image: url('../img/iconos/Eliminar_Foto.png');
+}
+
+.titleMsgGuardar {
+	font-family: 'Carter One';
+	color: #fff;
+	font-size: 20px;
+	text-align: center !important;
+	background-color: #0e8194;
+	height: 45px !important;
+	margin: 0px !important;
+	margin-bottom: 10px !important;
+}
+
+.titleMsgGuardar>span {
+	height: 45px !important;
+	line-height: 45px !important;
+}
+
+#msgGuardarInfo, .titleMsgGuardar2 {
+	font-family: 'Carter One';
+	color: #2ca6b4;
+}
+
+#divMensajeGuardar>div {
+	text-align: left;
+	height: 30px;
+	vertical-align: middle;
+	border-bottom: 1px solid #ddd;
+	margin: 0px 10px;
+}
+
+#divMensajeGuardar>div>span {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+    max-width: calc(100% - 40px);
+    overflow: hidden;
+}
+
+#divMensajeGuardar>div:last-of-type {
+	margin-bottom: 10px !important;
+	border-bottom: 0px;
+}
+
+
+#filterListEncuestas, #filterListImportEncuestas {
+	background-image: url(../img/iconos/Buscar2.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 25px;
+	line-height: inherit;
+	border-radius: 3px;
+	border: solid 1px #ccc;
+	margin-right: 15px;
+	height: 25px;
+	outline: none;
+}
+
+/**/
+input{
+	border-radius: 20px !important;
+}
+#btnIngreasar{
+	border-radius: 20px !important;
+}

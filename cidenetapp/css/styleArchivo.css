@@ -1,0 +1,58 @@
+h2{
+	text-align:center;
+	margin-top: 0px;
+}
+
+#menu, #get_file_details{
+	display: none;
+}
+
+.folder, .file{
+    font-family:sans;
+    font-size:10px;
+    cursor:pointer;
+	word-wrap: break-word;
+}
+
+.folder{
+	background: url('../img/folder.png') no-repeat 50% 0%;
+	margin:2px;
+	padding-top:25px;
+	text-align:center;
+}
+
+
+.file{
+	background: url('../img/file.png') no-repeat 50% 0%;
+	margin:2px;
+	padding-top:25px;
+	text-align:center;
+}
+
+body{
+	background:#fff;
+}
+
+.ui-header {
+    background: #10809c !important;
+    border: none;
+}
+
+a.ui-btn.ui-btn-up-a.ui-btn-corner-all.ui-shadow {
+    padding: 0px;
+    background: none;
+    border: 0px;
+    box-shadow: none;
+}
+
+span.ui-btn-inner.ui-btn-corner-all {
+    border: none;
+}
+
+span.ui-btn-text {
+    font-size: 20px;
+}
+
+#home {
+    background: #fff;
+}

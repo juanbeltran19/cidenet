@@ -1,0 +1,1808 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+
+label {
+	font-size: 11px;
+	font-family: Trebuchet MS;
+	width: 155px;
+	font-weight: bold;
+	height: auto;
+	margin-left: 20px;
+	margin-right: 16px;
+	margin-top: 20px;
+	text-align: right;
+	display: inline-block;
+	/* 	text-transform: capitalize; */
+}
+
+textarea {
+	font-size: 11px;
+	font-family: Trebuchet MS;
+	width: 164px;
+	height: auto;
+	margin-top: 20px;
+	border: 1px solid #C5BFBF;
+	resize: none;
+	border-radius: 5px;
+	height: 100px;
+	/* 	text-transform: capitalize; */
+}
+
+input {
+	font-size: 11px;
+	font-family: Trebuchet MS;
+	width: 170px;
+	height: 30px;
+	margin-top: 20px;
+	display: inline-block;
+	border-radius: 4px;
+	padding-left: 5px;
+	/* 	text-transform: capitalize; */
+}
+
+input[type="checkbox"] {
+	font-size: 11px;
+	font-family: Trebuchet MS;
+	width: 14px;
+	height: 14px;
+	margin-top: 0px;
+	display: inline-block;
+	border-radius: 4px;
+	font-size: 11px;
+}
+
+input[type="radio"] {
+	width: 15px;
+	height: 15px;
+}
+
+select {
+	font-size: 11px;
+	font-family: Trebuchet MS;
+	width: 167px;
+	height: 30px;
+	margin-top: 20px;
+	margin-left: 0px;
+	display: inline-block;
+	border-radius: 4px;
+	/* 	text-transform: capitalize; */
+}
+
+h2 {
+	display: inline-block;
+}
+
+.formulario {
+	font-size: 11px;
+	font-family: Trebuchet MS;
+	color: #3d3b3b;
+}
+
+.formulario fieldset {
+	border: 1px solid #c3c3c3;
+	border-radius: 4px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 96% !important;
+}
+
+.formulario legend {
+	margin-bottom: -20px;
+	margin-left: 20px;
+}
+
+.formulario .contenedor {
+	
+}
+
+.formulario .contenedor .contenido .mensajes {
+	width: 100%;
+	height: auto;
+}
+
+.formulario .contenedor .contenido {
+	width: 104%;
+	overflow: auto;
+	padding-bottom: 20px;
+	overflow-x: hidden;
+}
+
+.formulario .contenedor .menubotones {
+	height: 50px;
+	width: 95%;
+	border-top: 2px solid #B7B7B7;
+	text-align: left;
+	padding: 20px;
+	background: #e1dfdf;
+	border-bottom-left-radius: 4px;
+}
+
+.formulario .contenedor .menubotones .button {
+	margin: 0;
+	margin-right: 10px;
+}
+
+.labeldescriptivos {
+	font-weight: normal;
+	text-align: left;
+}
+
+.anchoauto {
+	width: auto;
+}
+
+.col {
+	display: block;
+}
+
+.col1 {
+	width: 384px;
+}
+
+.col2 {
+	width: 747px;
+}
+
+.alineadoizq {
+	position: relative;
+	float: right;
+}
+
+.flechaesconder {
+	background: url(../images/pestana.png) no-repeat;
+	border: 0;
+	height: 15px;
+	width: 23px;
+	cursor: pointer;
+	outline: 0;
+	background-size: 12px;
+	background-position: 4px 4px;
+}
+
+.formulario .consultaroculto {
+	height: 0px;
+	margin-bottom: 20px;
+	height: 1px;
+	padding-top: 23px;
+	height: 9px;
+	border-bottom: none;
+	margin-bottom: 20px;
+	padding-top: 23px;
+	border-left: none;
+	border-right: none;
+	border-radius: 0px;
+}
+
+.claro .dijitSelect, .claro .dijitTextBox {
+	background-color: #ffffff;
+	border-radius: 4px;
+	height: 30px;
+}
+/**Clases botones*/
+.button {
+	height: 30px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 20px;
+	background-color: #0033A0;
+	border: solid 1px #9a9a9a;
+	background-image: -webkit-linear-gradient(bottom, #bababa, #dfdfdd);
+	background-image: -moz-linear-gradient(bottom, #bababa, #dfdfdd);
+	background-image: -o-linear-gradient(bottom, #bababa, #dfdfdd);
+	background-image: linear-gradient(to top, #0033A0, #0033A0);
+	font-weight: bold;
+	outline: 0px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-family: Trebuchet MS;
+	font-size: 11px;
+	margin: 20px;
+}
+
+.button:hover {
+	height: 30px;
+	-webkit-border-radius: 4px 5px 5px 4px/6px;
+	-moz-border-radius: 4px 5px 5px 4px/6px;
+	border-radius: 20PX;
+	background-color: #00AEC7;
+	border: solid 1px #9a9a9a;
+	background-image: -webkit-linear-gradient(bottom, #195705, #3f7c09);
+	background-image: -moz-linear-gradient(bottom, #195705, #3f7c09);
+	background-image: -o-linear-gradient(bottom, #195705, #3f7c09);
+	background-image: linear-gradient(to top, #00AECB, #00AEC7);
+	font-family: Trebuchet MS;
+	font-size: 11px;
+	color: #fff;
+}
+
+.buttonIcono {
+	display: inline-flex;
+	height: 28px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #fff;
+	border: solid 1px #9a9a9a;
+	background-image: -webkit-linear-gradient(bottom, #bababa, #dfdfdd);
+	background-image: -moz-linear-gradient(bottom, #bababa, #dfdfdd);
+	background-image: -o-linear-gradient(bottom, #bababa, #dfdfdd);
+	background-image: linear-gradient(to top, #bababa, #dfdfdd);
+	font-weight: bold;
+	outline: 0px;
+	color: #3d3b3b;
+	cursor: pointer;
+	font-family: Trebuchet MS;
+	font-size: 11px;
+	position: relative;
+	top: 0px;
+	margin: 20px 0px 20px 3px;
+	line-height: 27px;
+}
+
+.buttonIcono:hover {
+	-webkit-border-radius: 4px 5px 5px 4px/6px;
+	-moz-border-radius: 4px 5px 5px 4px/6px;
+	border-radius: 4px 5px 5px 4px/6px;
+	background-color: #fff;
+	border: solid 1px #9a9a9a;
+	background-image: -webkit-linear-gradient(bottom, #195705, #3f7c09);
+	background-image: -moz-linear-gradient(bottom, #195705, #3f7c09);
+	background-image: -o-linear-gradient(bottom, #195705, #3f7c09);
+	background-image: linear-gradient(to top, #195705, #3f7c09);
+	font-family: Trebuchet MS;
+	font-size: 11px;
+	color: #fff;
+}
+
+.xls a {
+	text-decoration: blink;
+	padding: 0px;
+	color: #3d3b3b;
+	width: 31px;
+	padding-left: 40px;
+	position: relative;
+	z-index: 50;
+}
+
+.xls a:hover {
+	color: #fff;
+}
+
+.xls span {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 32px;
+	height: 27px;
+	position: absolute;
+	border: none;
+	box-shadow: none;
+	background-position: -170px -76px;
+	background-size: 408px;
+	z-index: 1;
+}
+
+.xls span:hover {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 32px;
+	height: 27px;
+	position: absolute;
+	border: none;
+	box-shadow: none;
+	background-position: -170px -76px;
+	background-size: 408px;
+	z-index: 1;
+}
+
+.agregar {
+	background: url(../img/iconos/agregarAcordeon.png) no-repeat;
+	width: 35px;
+	height: 35px;
+	border: none;
+	box-shadow: none;
+	/* background-position: -14px -169px; */
+	background-size: contain;
+	cursor: pointer;
+	outline: 0;
+	display: block;
+	margin-left: 90%;
+	margin-top: 3px;
+}
+
+.agregar:hover {
+	opacity: .7;
+}
+
+.quitar {
+	background: url(../img/iconos/quitarAcordeon.png) no-repeat;
+	width: 35px;
+	height: 35px;
+	border: none;
+	box-shadow: none;
+	/* background-position: -14px -220px; */
+	background-size: contain;
+	cursor: pointer;
+	outline: 0;
+	display: block;
+	margin-left: 90%;
+	margin-top: 3px;
+}
+
+.quitar:hover {
+	opacity: .7;
+}
+
+.puntomapa {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	height: 33px;
+	border: none;
+	box-shadow: none;
+	background-position: -412px -172px;
+	background-size: 620px;
+	cursor: pointer;
+	outline: 0;
+	position: relative;
+}
+
+.puntomapa:hover {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	height: 33px;
+	border: none;
+	box-shadow: none;
+	background-position: -412px -172px;
+	background-size: 620px;
+	cursor: pointer;
+	outline: 0;
+	position: relative;
+}
+
+.cargar {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	background-position: -273px -78px;
+	background-size: 408px;
+	cursor: pointer;
+	outline: 0;
+	height: 17px;
+	position: relative;
+	display: inline-block;
+	margin: 0px;
+	top: 0px;
+}
+
+.cargar:hover {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	background-position: -273px -78px;
+	background-size: 408px;
+	cursor: pointer;
+	outline: 0;
+	height: 17px;
+	position: relative;
+	display: inline-block;
+	margin: 0px;
+	top: 0px;
+}
+
+.campoicono {
+	width: 133px;
+}
+
+.iconfecha {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -109px -278px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	top: 9px;
+}
+
+.iconfecha:hover {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -109px -278px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	top: 9px;
+}
+
+.campoiconoF {
+	width: 127px;
+	margin-right: 5px;
+}
+
+.multiselectcciv {
+	height: 30px;
+	background: #fff;
+	font-weight: normal;
+	font-size: 11px;
+	color: #3d3b3b;
+}
+
+.multiselectcciv:hover {
+	height: 30px;
+	background: #fff;
+	font-weight: normal;
+	font-size: 11px;
+	color: #3d3b3b;
+	border: 1px solid #AFAFAF;
+}
+
+.contenedormultiseleccciv {
+	background: #fff;
+	color: #3d3b3b;
+}
+
+.contenedormultiseleccciv .contenedor {
+	font-size: 11px;
+	background: #fff;
+}
+
+.chkmultiselectcciv {
+	font-size: 11px;
+	font-family: Trebuchet MS;
+	width: 14px;
+	height: 14px;
+	margin-top: 0px;
+	display: inline-block;
+	border-radius: 4px;
+	font-size: 11px;
+}
+
+.labelmultiselecccic {
+	margin-left: -1px;
+	width: 100%;
+	text-align: left;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: -8px;
+}
+
+.labelmultiselecccic:hover {
+	margin-left: -1px;
+	width: 100%;
+	text-align: left;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: -8px;
+}
+
+.contenedormultiseleccciv .ui-state-hover, .ui-widget-content .ui-state-hover,
+	.ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus,
+	.ui-widget-header .ui-state-focus {
+	border: 1px solid #FFFFFF;
+	background: #DFDCDC url("images/ui-bg_fine-grain_65_654b24_60x60.png")
+		50% 50% repeat;
+	font-weight: bold;
+	color: #3d3b3b;
+}
+
+.campoiconoF {
+	width: 127px;
+	margin-right: 5px;
+}
+/**Clases grid botones**/
+/**Ver**/
+.iconVer {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -274px -167px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	margin-left: 33%;
+}
+
+.iconVer:hover {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -274px -167px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	margin-left: 33%;
+}
+/**Editar**/
+.iconEditar {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -183px -279px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	margin-left: 33%;
+	top: -14px;
+}
+
+.iconEditar:hover {none;one; 33%
+	opacity: .;
+	opacity: 0.7;
+}
+/**Reportar**/
+.iconReportar {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -554px -10px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	margin-left: 33%;
+}
+
+.iconReportar:hover {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -554px -10px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	margin-left: 33%;
+}
+/**agregar**/
+.iconAgregar {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -109px -174px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	margin-left: 33%;
+}
+
+.iconAgregar:hover {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -145px -176px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	margin-left: 33%;
+}
+/**Punto**/
+.iconPunto {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -417px -165px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	margin-left: 33%;
+}
+
+.iconPunto:hover {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -414px -168px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	margin-left: 33%;
+}
+/**ver imagen**/
+.iconImagen {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -416px -327px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	margin-left: 33%;
+}
+
+.iconImagen:hover {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -416px -327px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	margin-left: 33%;
+}
+/**aprovar**/
+.iconAprobar {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -276px -327px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	margin-left: 33%;
+}
+
+.iconAprobar:hover {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -276px -331px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	margin-left: 33%;
+}
+/**Eliminar**/
+.iconEliminar {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -323px -219px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	margin-left: 33%;
+	top: -14px;
+}
+
+.iconEliminar:hover {
+	opacity: .7;
+}
+/**Perfiles**/
+.iconPerfiles {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -183px -58px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	margin-left: 33%;
+	top: -14px;
+}
+
+.iconPerfiles:hover {
+	background: url(../img/iconos/iconos.png) no-repeat;
+	width: 30px;
+	display: inline-block;
+	height: 40px;
+	border: none;
+	box-shadow: none;
+	background-position: -278px -63px;
+	background-size: 620px;
+	position: relative;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+	height: 40px;
+	margin-left: 33%;
+}
+
+.Bloqueo {
+	display: none;
+	width: 100%;
+	height: 300%;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.08);
+	z-index: 1000;
+}
+
+.buttonp {
+	background-color: #fff;
+	background-image: linear-gradient(to top, #195705, #3f7c09);
+	border: 1px solid #9a9a9a;
+	border-radius: 4px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-family: Trebuchet MS;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 20px;
+	height: 30px;
+	outline: 0 none;
+}
+
+.buttonp:hover {
+	background-color: #fff;
+	background-image: linear-gradient(to top, #364232, #4F762D);
+	border: 1px solid #9a9a9a;
+	border-radius: 4px 5px 5px 4px/6px;
+	color: #fff;
+	font-family: Trebuchet MS;
+	font-size: 11px;
+	height: 30px;
+}
+
+.migapan {
+	font-family: Trebuchet MS;
+	font-size: 10px;
+	position: relative;
+	width: 100%;
+	text-align: right;
+	display: block;
+	margin: 5px 0px 5px 0px;
+	right: 4%;
+	font-style: normal;
+	color: hsl(100, 45%, 43%);
+	cursor: default;
+}
+
+.migapan span {
+	color: #8d8d8d;
+}
+
+.clsopcional {
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	color: #CCCBCB;
+}
+
+.texto_validar {
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	color: #5c9d3c;
+	font-weight: bold;
+	margin: 20px 0px 15px 8px;
+}
+
+.col1 {
+	width: 96%;
+	height: 93%;
+}
+
+.menubotones .buttonp {
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.columna1 label {
+	display: block;
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 8px;
+}
+
+.columna1 select, .columna1 search, .columna1 input {
+	margin-left: 20px;
+	margin-top: 0px;
+	width: 90%;
+	margin-right: 20px;
+}
+
+.columna1 input[type="checkbox"] {
+	width: 14px;
+}
+/*MENSAJES*/
+/*Mensaje Error */
+.mgsError {
+	padding-bottom: 0px;
+	background: #f0f0f0;
+	padding-left: 0px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	border-top-right-radius: 0px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid hsla(0, 0%, 0%, 0.33);
+	-webkit-box-shadow: 12px 10px 8px -4px hsla(0, 0%, 21%, 0.36);
+	-moz-box-shadow: 12px 10px 8px -4px rgba(54, 54, 54, 1);
+	box-shadow: 12px 10px 8px -10px hsla(0, 0%, 21%, 0.42);
+	padding-top: 0px;
+}
+
+.mgsError .mgsErrorcajatitulo {
+	border-radius: 0px;
+	border-left: 0px;
+	border-top: 0px;
+	background-size: 25px;
+	border-right: 0px;
+	border-bottom: hsl(0, 0%, 0%);
+	background-repeat: no-repeat;
+	background-position: 4px 10px;
+	padding-left: 77px;
+	padding-top: 14px;
+	margin-top: 12px;
+	margin-right: -4px;
+	background: -moz-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	background: -o-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	background: -ms-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#a31500',
+		endColorstr='#cc0000', GradientType=0);
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	background: url(/cciv/img/franja.png) no-repeat #f0f0f0;
+	background-position: -6px;
+	background-size: 314px;
+}
+
+.mgsError .mgsErrortitulo_texto {
+	color: hsl(100, 13%, 98%);
+	font-size: 16px;
+	font-weight: bold;
+	height: 29px;
+	margin-bottom: 0px;
+	margin-top: -7px;
+	position: relative;
+	top: -5px;
+	text-align: center;
+	width: 135px;
+	line-height: 31px;
+}
+
+.mgsError .mgsErrorcerrar {
+	background: url("/cciv/img/cerrarInformacion.png") hsl(0, 100%, 100%);
+	border: 0px hsl(127, 82%, 58%) solid;
+	background-size: 21px;
+	outline: 0px;
+	width: 18px;
+	height: 18px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	right: 4px;
+	top: 19px;
+	background-position: -2px -2.5px;
+	border-radius: 0px;
+	display: none;
+}
+
+.mgsError .mgsErrorcerrar:hover {
+	opacity: 0.5;
+}
+
+.ui-dialog .ui-dialog-content {
+	text-align: center;
+	position: relative;
+	border: 1px solid hsla(0, 0%, 23%, 0.32);
+	padding: .5em;
+	margin-right: -3px;
+	background: hsl(0, 0%, 97%);
+	overflow: auto;
+	color: #666;
+	font-family: Trebuchet MS;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.mgsError .mgsErroricono {
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	background: n;
+	top: 5px;
+	left: 12px;
+	background-size: 58px;
+	background-repeat: no-repeat;
+	background-position: -1px -1px;
+	border-radius: 0;
+}
+
+.mgsError .ui-dialog-buttonpane {
+	text-align: left;
+	background-image: none;
+	border-left: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	margin-right: -3px;
+	background: #f0f0f0;
+	border-right: 1px solid #f0f0f0;
+	border-top: 1px solid #f0f0f0;
+	margin-top: 0px;
+	padding: 0px;
+	padding-right: 31%;
+	border: 1px solid #f0f0f0;
+	border-width: 0px;
+}
+/*************************************************************************************************************************************/
+/*Mensaje Advertencia */
+.msgAdvertencia {
+	padding-bottom: 0px;
+	background: #f0f0f0;
+	padding-left: 0px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	border-top-right-radius: 0px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid hsla(0, 0%, 0%, 0.33);
+	-webkit-box-shadow: 12px 10px 8px -4px hsla(0, 0%, 21%, 0.36);
+	-moz-box-shadow: 12px 10px 8px -4px rgba(54, 54, 54, 1);
+	box-shadow: 12px 10px 8px -10px hsla(0, 0%, 21%, 0.42);
+	padding-top: 0px;
+}
+
+.msgAdvertencia .msgAdvertenciacajatitulo {
+	border-radius: 0px;
+	border-left: 0px;
+	border-top: 0px;
+	background-size: 25px;
+	border-right: 0px;
+	border-bottom: hsl(0, 0%, 0%);
+	background-repeat: no-repeat;
+	background-position: 4px 10px;
+	padding-left: 77px;
+	padding-top: 14px;
+	margin-top: 12px;
+	margin-right: -4px;
+	background: -moz-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	background: -o-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	background: -ms-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#a31500',
+		endColorstr='#cc0000', GradientType=0);
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	background: url(/cciv/img/franja.png) no-repeat #f0f0f0;
+	background-position: -6px;
+	background-size: 314px;
+}
+
+.msgAdvertencia .msgAdvertenciatitulo_texto {
+	color: hsl(100, 13%, 98%);
+	font-size: 16px;
+	font-weight: bold;
+	height: 29px;
+	margin-bottom: 0px;
+	margin-top: -7px;
+	position: relative;
+	top: -5px;
+	text-align: center;
+	width: 135px;
+	line-height: 31px;
+}
+
+.msgAdvertencia .msgAdvertenciacerrar {
+	background: url("/cciv/img/cerrarInformacion.png") hsl(0, 100%, 100%);
+	border: 0px hsl(127, 82%, 58%) solid;
+	background-size: 21px;
+	outline: 0px;
+	width: 18px;
+	height: 18px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	right: 4px;
+	top: 19px;
+	background-position: -2px -2.5px;
+	border-radius: 0px;
+	display: none;
+}
+
+.msgAdvertencia .msgAdvertenciacerrar:hover {
+	opacity: 0.5;
+}
+
+.ui-dialog .ui-dialog-content {
+	text-align: center;
+	position: relative;
+	border: 1px solid hsla(0, 0%, 23%, 0.32);
+	padding: .5em;
+	margin-right: -3px;
+	background: hsl(0, 0%, 97%);
+	overflow: auto;
+	color: #666;
+	font-family: Trebuchet MS;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.msgAdvertencia .msgAdvertenciaicono {
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	background: n;
+	top: 5px;
+	left: 12px;
+	background-size: 58px;
+	background-repeat: no-repeat;
+	background-position: -1px -1px;
+	border-radius: 0;
+}
+
+.msgAdvertencia .ui-dialog-buttonpane {
+	text-align: left;
+	background-image: none;
+	border-left: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	margin-right: -3px;
+	background: #f0f0f0;
+	border-right: 1px solid #f0f0f0;
+	border-top: 1px solid #f0f0f0;
+	margin-top: 0px;
+	padding: 0px;
+	padding-right: 31%;
+	border: 1px solid #f0f0f0;
+	border-width: 0px;
+}
+/*************************************************************************************************************************************/
+/*Mensaje _Informacion */
+.msgInformacion {
+	padding-bottom: 0px;
+	background: #f0f0f0;
+	padding-left: 0px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	border-top-right-radius: 0px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid hsla(0, 0%, 0%, 0.33);
+	-webkit-box-shadow: 12px 10px 8px -4px hsla(0, 0%, 21%, 0.36);
+	-moz-box-shadow: 12px 10px 8px -4px rgba(54, 54, 54, 1);
+	box-shadow: 12px 10px 8px -10px hsla(0, 0%, 21%, 0.42);
+	padding-top: 0px;
+}
+
+.msgInformacion .msgInformacioncajatitulo {
+	border-radius: 0px;
+	border-left: 0px;
+	border-top: 0px;
+	background-size: 25px;
+	border-right: 0px;
+	border-bottom: hsl(0, 0%, 0%);
+	background-repeat: no-repeat;
+	background-position: 4px 10px;
+	padding-left: 77px;
+	padding-top: 14px;
+	margin-top: 12px;
+	margin-right: -4px;
+	background: -moz-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	background: -o-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	background: -ms-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#a31500',
+		endColorstr='#cc0000', GradientType=0);
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	background: url(/cciv/img/franja.png) no-repeat #f0f0f0;
+	background-position: -6px;
+	background-size: 314px;
+}
+
+.msgInformacion .msgInformaciontitulo_texto {
+	color: hsl(100, 13%, 98%);
+	font-size: 16px;
+	font-weight: bold;
+	height: 29px;
+	margin-bottom: 0px;
+	margin-top: -7px;
+	position: relative;
+	top: -5px;
+	text-align: center;
+	width: 135px;
+	line-height: 31px;
+}
+
+.msgInformacion .msgInformacioncerrar {
+	background: url("/cciv/img/cerrarInformacion.png") hsl(0, 100%, 100%);
+	border: 0px hsl(127, 82%, 58%) solid;
+	background-size: 21px;
+	outline: 0px;
+	width: 18px;
+	height: 18px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	right: 4px;
+	top: 19px;
+	background-position: -2px -2.5px;
+	border-radius: 0px;
+	display: none;
+}
+
+.msgInformacion .msgInformacioncerrar:hover {
+	opacity: 0.5;
+}
+
+.ui-dialog .ui-dialog-content {
+	text-align: center;
+	position: relative;
+	border: 1px solid hsla(0, 0%, 23%, 0.32);
+	padding: .5em;
+	margin-right: -3px;
+	background: hsl(0, 0%, 97%);
+	overflow: auto;
+	color: #666;
+	font-family: Trebuchet MS;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.msgInformacion .msgInformacionicono {
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	background: n;
+	top: 5px;
+	left: 12px;
+	background-size: 58px;
+	background-repeat: no-repeat;
+	background-position: -1px -1px;
+	border-radius: 0;
+}
+
+.msgInformacion .ui-dialog-buttonpane {
+	text-align: left;
+	background-image: none;
+	border-left: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	margin-right: -3px;
+	background: #f0f0f0;
+	border-right: 1px solid #f0f0f0;
+	border-top: 1px solid #f0f0f0;
+	margin-top: 0px;
+	padding: 0px;
+	padding-right: 31%;
+	border: 1px solid #f0f0f0;
+	border-width: 0px;
+}
+/**********************************************************************/
+/*Mensaje Ayuda */
+.msgAyuda {
+	padding-bottom: 0px;
+	background: #f0f0f0;
+	padding-left: 0px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	border-top-right-radius: 0px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid hsla(0, 0%, 0%, 0.33);
+	-webkit-box-shadow: 12px 10px 8px -4px hsla(0, 0%, 21%, 0.36);
+	-moz-box-shadow: 12px 10px 8px -4px rgba(54, 54, 54, 1);
+	box-shadow: 12px 10px 8px -10px hsla(0, 0%, 21%, 0.42);
+	padding-top: 0px;
+}
+
+.msgAyuda .msgAyudacajatitulo {
+	border-radius: 0px;
+	border-left: 0px;
+	border-top: 0px;
+	background-size: 25px;
+	border-right: 0px;
+	border-bottom: hsl(0, 0%, 0%);
+	background-repeat: no-repeat;
+	background-position: 4px 10px;
+	padding-left: 77px;
+	padding-top: 14px;
+	margin-top: 12px;
+	margin-right: -4px;
+	background: -moz-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	background: -o-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	background: -ms-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#a31500',
+		endColorstr='#cc0000', GradientType=0);
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	background: url(/cciv/img/franja.png) no-repeat #f0f0f0;
+	background-position: -6px;
+	background-size: 314px;
+}
+
+.msgAyuda .msgAyudatitulo_texto {
+	color: hsl(100, 13%, 98%);
+	font-size: 16px;
+	font-weight: bold;
+	height: 29px;
+	margin-bottom: 0px;
+	margin-top: -7px;
+	position: relative;
+	top: -5px;
+	text-align: center;
+	width: 135px;
+	line-height: 31px;
+}
+
+.msgAyuda .msgAyudacerrar {
+	background: url("/cciv/img/cerrarInformacion.png") hsl(0, 100%, 100%);
+	border: 0px hsl(127, 82%, 58%) solid;
+	background-size: 21px;
+	outline: 0px;
+	width: 18px;
+	height: 18px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	right: 4px;
+	top: 19px;
+	background-position: -2px -2.5px;
+	border-radius: 0px;
+	display: none;
+}
+
+.msgAyuda .msgAyudacerrar:hover {
+	opacity: 0.5;
+}
+
+.ui-dialog .ui-dialog-content {
+	text-align: center;
+	position: relative;
+	border: 1px solid hsla(0, 0%, 23%, 0.32);
+	padding: .5em;
+	margin-right: -3px;
+	background: hsl(0, 0%, 97%);
+	overflow: auto;
+	color: #666;
+	font-family: Trebuchet MS;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.msgAyuda .msgAyudaicono {
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	background: n;
+	top: 5px;
+	left: 12px;
+	background-size: 58px;
+	background-repeat: no-repeat;
+	background-position: -1px -1px;
+	border-radius: 0;
+}
+
+.msgAyuda .ui-dialog-buttonpane {
+	text-align: left;
+	background-image: none;
+	border-left: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	margin-right: -3px;
+	background: #f0f0f0;
+	border-right: 1px solid #f0f0f0;
+	border-top: 1px solid #f0f0f0;
+	margin-top: 0px;
+	padding: 0px;
+	padding-right: 31%;
+	border: 1px solid #f0f0f0;
+	border-width: 0px;
+}
+/**********************************************************************/
+/*Mensaje Validacion */
+.msgValidar {
+	padding-bottom: 0px;
+	background: #f0f0f0;
+	padding-left: 0px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	border-top-right-radius: 0px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid hsla(0, 0%, 0%, 0);
+	-webkit-box-shadow: 12px 10px 8px -4px hsla(0, 0%, 21%, 0.36);
+	-moz-box-shadow: 12px 10px 8px -4px rgba(54, 54, 54, 1);
+	box-shadow: 12px 10px 8px -10px hsla(0, 25%, 13%, 0);
+	padding-top: 0px;
+}
+
+.msgValidar .msgValidarcajatitulo {
+	border-radius: 0px;
+	border-left: 0px;
+	border-top: 0px;
+	background-size: 25px;
+	border-right: 0px;
+	border-bottom: hsl(0, 0%, 0%);
+	background-repeat: no-repeat;
+	background-position: 4px 10px;
+	padding-left: 77px;
+	padding-top: 14px;
+	margin-top: 12px;
+	margin-right: -4px;
+	background: -moz-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	background: -o-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	background: -ms-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#a31500',
+		endColorstr='#cc0000', GradientType=0);
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	background: url(/cciv/img/franja.png) no-repeat #f0f0f0;
+	background-position: -6px;
+	background-size: 314px;
+}
+
+.msgValidar .msgValidartitulo_texto {
+	color: hsl(100, 13%, 98%);
+	font-size: 16px;
+	font-weight: bold;
+	height: 29px;
+	margin-bottom: 0px;
+	margin-top: -7px;
+	position: relative;
+	top: -5px;
+	text-align: center;
+	width: 135px;
+	line-height: 31px;
+}
+
+.msgValidar .msgValidarcerrar {
+	background: url("/cciv/img/cerrarInformacion.png") hsl(0, 100%, 100%);
+	border: 0px hsl(127, 82%, 58%) solid;
+	background-size: 21px;
+	outline: 0px;
+	width: 18px;
+	height: 18px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	right: 4px;
+	top: 19px;
+	background-position: -2px -2.5px;
+	border-radius: 0px;
+	display: none;
+}
+
+.msgValidar .msgValidarcerrar:hover {
+	opacity: 0.5;
+}
+
+.ui-dialog .ui-dialog-content {
+	text-align: center;
+	position: relative;
+	border: 1px solid hsla(0, 0%, 23%, 0.32);
+	padding: .5em;
+	margin-right: -3px;
+	background: hsl(0, 0%, 97%);
+	overflow: auto;
+	color: #666;
+	font-family: Trebuchet MS;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.msgValidar .msgValidaricono {
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	background: n;
+	top: 5px;
+	left: 12px;
+	background-size: 58px;
+	background-repeat: no-repeat;
+	background-position: -1px -1px;
+	border-radius: 0;
+}
+
+.msgValidar .ui-dialog-buttonpane {
+	text-align: left;
+	background-image: none;
+	border-left: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	margin-right: -3px;
+	background: #f0f0f0;
+	border-right: 1px solid #f0f0f0;
+	border-top: 1px solid #f0f0f0;
+	margin-top: 0px;
+	padding: 0px;
+	padding-right: 31%;
+	border: 1px solid #f0f0f0;
+	border-width: 0px;
+}
+/**********************************************************************/
+/*Mensaje confirmacion */
+.msgConfirmacion {
+	padding-bottom: 0px;
+	background: #f0f0f0;
+	padding-left: 0px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	border-top-right-radius: 0px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid hsla(0, 0%, 0%, 0.33);
+	-webkit-box-shadow: 12px 10px 8px -4px hsla(0, 0%, 21%, 0.36);
+	-moz-box-shadow: 12px 10px 8px -4px rgba(54, 54, 54, 1);
+	box-shadow: 12px 10px 8px -10px hsla(0, 0%, 21%, 0.42);
+	padding-top: 0px;
+}
+
+.msgConfirmacion .msgConfirmacioncajatitulo {
+	border-radius: 0px;
+	border-left: 0px;
+	border-top: 0px;
+	background-size: 25px;
+	border-right: 0px;
+	border-bottom: hsl(0, 0%, 0%);
+	background-repeat: no-repeat;
+	background-position: 4px 10px;
+	padding-left: 77px;
+	padding-top: 14px;
+	margin-top: 12px;
+	margin-right: -4px;
+	background: -moz-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	background: -o-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	background: -ms-linear-gradient(top, #a31500 44%, #cc0000 83%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#a31500',
+		endColorstr='#cc0000', GradientType=0);
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	background: url(/cciv/img/franja.png) no-repeat #f0f0f0;
+	background-position: -6px;
+	background-size: 314px;
+}
+
+.msgConfirmacion .msgConfirmaciontitulo_texto {
+	color: hsl(100, 13%, 98%);
+	font-size: 16px;
+	font-weight: bold;
+	height: 29px;
+	margin-bottom: 0px;
+	margin-top: -7px;
+	position: relative;
+	top: -5px;
+	text-align: center;
+	width: 135px;
+	line-height: 31px;
+}
+
+.msgConfirmacion .msgConfirmacioncerrar {
+	background: url("/cciv/img/cerrarInformacion.png") hsl(0, 100%, 100%);
+	border: 0px hsl(127, 82%, 58%) solid;
+	background-size: 21px;
+	outline: 0px;
+	width: 18px;
+	height: 18px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	right: 4px;
+	top: 19px;
+	background-position: -2px -2.5px;
+	border-radius: 0px;
+	display: none;
+}
+
+.msgConfirmacion .msgConfirmacioncerrar:hover {
+	opacity: 0.5;
+}
+
+.ui-dialog .ui-dialog-content {
+	text-align: center;
+	position: relative;
+	border: 1px solid #f0f0f0;
+	padding: .5em;
+	margin-right: -3px;
+	background: #f0f0f0;
+	overflow: auto;
+	color: #666;
+	font-family: Trebuchet MS;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.msgConfirmacion .msgConfirmacionicono {
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	background: n;
+	top: 5px;
+	left: 12px;
+	background-size: 58px;
+	background-repeat: no-repeat;
+	background-position: -1px -1px;
+	border-radius: 0;
+}
+
+.msgConfirmacion .ui-dialog-buttonpane {
+	text-align: left;
+	background-image: none;
+	border-left: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	margin-right: -3px;
+	background: #f0f0f0;
+	border-right: 1px solid #f0f0f0;
+	border-top: 1px solid #f0f0f0;
+	margin-top: 0px;
+	padding: 0px;
+	padding-right: 31%;
+	border: 1px solid #f0f0f0;
+	border-width: 0px;
+	margin-bottom: 7px;
+}
+
+.msgConfirmacion .ui-state-default, .msgConfirmacion .ui-widget-content .ui-state-default,
+	.msgConfirmacion .ui-widget-header .ui-state-default {
+	border: 1px solid rgba(203, 199, 189, 0);
+	background: #62a144;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.msgConfirmacion .ui-state-hover, .msgConfirmacion .ui-widget-content .ui-state-hover,
+	.msgConfirmacion .ui-widget-header .ui-state-hover, .msgConfirmacion .ui-state-foc,
+	.msgConfirmacion .ui-widget-content .ui-state-foc, .msgConfirmacion.ui-widget-header .ui-state-foc
+	{
+	opacity: 0.5;
+}
+/***Mensajes de cabezera***/
+.mensajes .mensajesValidacion {
+	margin: 5px 35px 5px 35px;
+	padding: 5px 5px 5px 82px;
+	background: #dcd1e8 url(/cciv/img/mgsValidar1.png) no-repeat;
+	background-size: 23px;
+	border-radius: 5px;
+	min-height: 20px;
+	border: 1px solid #7C13ED;
+	background-position: 10px 50%;
+	color: #000;
+	font-size: 11px;
+	font-family: Trebuchet MS;
+}
+
+.mensajes .mensajesError {
+	margin: 5px 35px 5px 35px;
+	padding: 5px 5px 5px 82px;
+	background: #FDE5E2 url(/cciv/img/mgsError1.png) no-repeat;
+	background-size: 23px;
+	border-radius: 5px;
+	min-height: 20px;
+	border: 1px solid #F42006;
+	background-position: 10px 50%;
+	color: #000;
+	font-size: 11px;
+	font-family: Trebuchet MS;
+}
+
+.mensajes .mensajesInformacion {
+	margin: 5px 35px 5px 35px;
+	padding: 5px 5px 5px 82px;
+	background: #cde1f4 url(/cciv/img/msgInformacion1.png) no-repeat;
+	background-size: 23px;
+	border-radius: 5px;
+	min-height: 20px;
+	border: 1px solid #1682E8;
+	background-position: 10px 50%;
+	color: #000;
+	font-size: 11px;
+	font-family: Trebuchet MS;
+}
+
+.mensajes .mensajesAdvertencia {
+	margin: 5px 35px 5px 35px;
+	padding: 5px 5px 5px 82px;
+	background: #fffce5 url(/cciv/img/mgsAdvertencia1.png) no-repeat;
+	background-size: 23px;
+	border-radius: 5px;
+	min-height: 20px;
+	border: 1px solid #D7BF08;
+	background-position: 10px 50%;
+	color: #000;
+	font-size: 11px;
+	font-family: Trebuchet MS;
+}
+
+.ui-state-default .ui-icon {
+	background-image: none;
+	border: none;
+}
+/**informacion**/
+.msgInformacion .ui-state-default, .msgInformacion .ui-widget-content .ui-state-default,
+	.msgInformacion .ui-widget-header .ui-state-default {
+	border: 1px solid rgba(203, 199, 189, 0);
+	background: #62a144;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.msgInformacion .ui-state-hover, .msgInformacion .ui-widget-content .ui-state-hover,
+	.msgInformacion .ui-widget-header .ui-state-hover, .msgInformacion .ui-state-foc,
+	.msgInformacion .ui-widget-content .ui-state-foc, .msgInformacion.ui-widget-header .ui-state-foc
+	{
+	opacity: 0.5;
+}
+/**error*/
+.mgsError .ui-state-default, .mgsError .ui-widget-content .ui-state-default,
+	.mgsError .ui-widget-header .ui-state-default {
+	border: 1px solid rgba(203, 199, 189, 0);
+	background: #62a144;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.mgsError .ui-state-hover, .mgsError .ui-widget-content .ui-state-hover,
+	.mgsError .ui-widget-header .ui-state-hover, .mgsError .ui-state-foc,
+	.mgsError .ui-widget-content .ui-state-foc, .mgsError.ui-widget-header .ui-state-foc
+	{
+	opacity: 0.5;
+}
+/************************/
+.msgAdvertencia .ui-state-default, .msgAdvertencia .ui-widget-content .ui-state-default,
+	.msgAdvertencia .ui-widget-header .ui-state-default {
+	border: 1px solid rgba(203, 199, 189, 0);
+	background: #62a144;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.msgAdvertencia .ui-state-hover, .msgAdvertencia .ui-widget-content .ui-state-hover,
+	.msgAdvertencia .ui-widget-header .ui-state-hover, .msgAdvertencia .ui-state-foc,
+	.msgAdvertencia .ui-widget-content .ui-state-foc, .msgAdvertencia.ui-widget-header .ui-state-foc
+	{
+	opacity: 0.5;
+}
+/*//*/
+.msgAyuda .ui-state-default, .msgAyuda .ui-widget-content .ui-state-default,
+	.msgAyuda .ui-widget-header .ui-state-default {
+	border: 1px solid rgba(203, 199, 189, 0);
+	background: #62a144;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.msgAyuda .ui-state-hover, .msgAyuda .ui-widget-content .ui-state-hover,
+	.msgAyuda .ui-widget-header .ui-state-hover, .msgAyuda .ui-state-foc,
+	.msgAyuda .ui-widget-content .ui-state-foc, .msgAyuda.ui-widget-header .ui-state-foc
+	{
+	opacity: 0.5;
+}
+/******************/
+.msgValidar .ui-state-default, .msgValidar .ui-widget-content .ui-state-default,
+	.msgValidar .ui-widget-header .ui-state-default {
+	border: 1px solid rgba(203, 199, 189, 0);
+	background: #62a144;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.msgValidar .ui-state-hover, .msgValidar .ui-widget-content .ui-state-hover,
+	.msgValidar .ui-widget-header .ui-state-hover, .msgValidar .ui-state-foc,
+	.msgValidar .ui-widget-content .ui-state-foc, .msgValidar.ui-widget-header .ui-state-foc
+	{
+	opacity: 0.5;
+}
+
+.columna1 .labeldescriptivos {
+	margin-top: 0px;
+}
+
+#txt_urlRest {
+	text-transform: none;
+}
+
+.subirImg {
+	background: url(../images/General/subir.png);
+	width: 30px;
+	border: none;
+	margin-left: 3px;
+	position: relative;
+	top: 11px;
+	height: 30px;
+	font-weight: bold;
+	outline: 0px;
+	color: #3d3b3b;
+	cursor: pointer;
+	font-family: Trebuchet MS;
+	font-size: 11px;
+}
+
+.CampoColor {
+	width: 19px;
+	height: 21px;
+	margin-left: 5px;
+}
+
+.exp {
+	background: url(../images/botones/acordeon/pdf.png);
+	border: none;
+	width: 30px;
+	cursor: pointer;
+}
+
+.exp:hover {
+	background: url(../images/botones/acordeon/pdf.png);
+	border: none;
+	width: 30px;
+	cursor: pointer;
+	opacity: .7;
+}
+
+textarea.form-control {
+	width: 95% !important;
+}
+
+.tituloAcordionVa {
+    width: 100% !important;
+    font-size: 12px !important;
+    font-style: italic;
+    margin-bottom: 1px !important;
+    color: #0033a0 !important;
+    border-bottom: 1px solid #dedede;
+}
+
+/*Cambios nuevos*/
+.cvFirmaDig{
+	background: #fff;
+    cursor: not-allowed;
+    outline: none;
+    border-radius: 5px;
+}

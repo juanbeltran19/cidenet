@@ -1,0 +1,270 @@
+
+  html, body, #map {
+    height:99%;
+    width:100%;
+    margin:0;
+     top: 0px;
+   
+  }
+  body {
+    background-color:#FFF;
+    overflow: hidden;
+    font-family:"Trebuchet MS";
+  }
+
+a {
+	color: #729C23;
+	text-decoration: none;
+	font-size: 12px
+}
+a:hover {
+	color: #ABB31A;
+	text-decoration: underline;
+}
+
+/* Estilo para el parrafo */
+
+p {
+	text-align:left;
+	style="margin: 5px;
+	padding: 0px;
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #666666;"
+}
+
+span {
+	text-align:justify;
+	style="margin: 5px;
+	padding: 0px;
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	color: #666666;"
+}
+/* Estilos de botones y campos de forma. */
+/*************************************************/
+
+textarea{
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; 
+	color: #666666; 
+	width: 100%; 
+	height: 45px;
+	border-radius: 6px 6px 6px 6px;
+	-moz-border-radius: 6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border: 1px solid #95c2c2;
+}
+
+button{
+	background-color: transparent;
+	border-color:transparent;
+}
+
+input[type=radio] {
+	background:none;
+	border:none;
+	width: 20px;
+	height: 20px;
+}
+
+select {
+	color: #666666;
+	border: 0px solid #CCCCCC;
+	background: #F0FFFF;
+	font-size:11px;
+	width:auto;
+}
+
+table td{
+	padding:1px;
+	color:#666666;
+	font-size:11px;
+}
+
+label{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px;
+}
+
+.ifColorPicker { width:365px; height:185px; visibility: visible; border:0px;}
+.loadIcon {position:absolute; visibility:hidden; width:40px; height:40px; top:45%; left:45%}
+.txtTemp { position:absolute; visibility: hidden; width:160px; height: 20px; font-family:Helvetica; text-align:center; font-size:11px;}
+
+.frmImprimir{position:absolute;visibility:hidden;width:270px; height:185px;}
+.btnImprimirIcon { border: 1px;  position:absolute; left:20px; bottom:5px; solid #95c2c2;background-image:url(../images/botones/70x30/imprimir.png); width:90px; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+.lnkImprimir { visibility: hidden; position:absolute; left:100px; bottom:5px; }
+
+
+.frmSimbologia{	width:300px; height:410px; position:absolute;visibility:hidden;}
+.btnColorPicker{ border: 1px; background-image:url(../images/botones/22x22/PaletaColor20x20.png); width:20px; height:20px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+.btnColorPicker:hover{ background-image:url(../images/botones/22x22/PaletaColor20x20Gris.png); }
+.btnAplicarSimbIcon { border: 1px;  position:absolute; left:40%; bottom:5px; solid #95c2c2;background-image:url(../images/botones/70x30/Simbolizar.png); width:90px; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+
+.divToc{width:260px; height:430px; position:absolute; visibility:hidden }
+.contentTOC{overflow:auto; width:100%; height:100%; border:0px}
+.mnuMapas { width:200px; height:200px; visibility: hidden;}
+.mnuIndicadores { width:250px; height:430px; visibility: hidden;}
+
+.frmEdicion{width:300px; height:450px; position:absolute;visibility:hidden;}
+.starEditIcon { visibility: visible; border: 1px;  solid #95c2c2;background-image:url(../images/botones/70x30/Simbolizar.png); width:90px; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+.stopEditIcon { visibility: hidden; border: 1px;  solid #95c2c2;background-image:url(../images/botones/70x30/imprimir.png); width:90px; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+.frmDescargarImg{width:220px; height:60px;position:absolute;visibility:hidden;overflow:hidden;z-index: 1500}
+.frmIdentificarLite{width:300px; height:250px; position:absolute;visibility:hidden;overflow:hidden;z-index: 1500}
+.frmIdentificar{width:350px; height:90px; position:absolute;visibility:hidden;overflow:hidden;z-index: 1500}
+      .drawPointIcon { border: 0px; background-image:url(../images/botones/70x30/punto.png); width:23%; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .drawLineIcon { border: 0px; background-image:url(../images/botones/70x30/linea.png); width:23%; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .drawRectIcon { border: 0px; background-image:url(../images/botones/70x30/rectangulo.png); width:26%; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .drawPolygonIcon { border: 0px; background-image:url(../images/botones/70x30/poligono.png); width:24%; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .drawCircleIcon { border: 0px; background-image:url(../images/botones/70x30/circle.png); width:24%; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+.frmResultBusqueda{width:340px; height: 360px !important; position:absolute;visibility:hidden;}
+.frmInfoCapa{width:400px; height: 350px; position:absolute;visibility:hidden;}
+.frmAutoRefresh{width:300px; height:45px; position:absolute;visibility:hidden;}
+.frmConsultaAtributos{width:340px; height:400px; position:absolute;visibility:hidden;}
+.frmConsultaGrafico{width:340px; height:440px; position:absolute;visibility:hidden;}
+.frmConsultaLocalizacion{width:630px; height:400px; position:absolute;visibility:hidden}
+.grdConsulta{width:650px; height:300px; position:absolute;visibility:hidden;background-color: #FFFFFF}
+      .exportCSVIcon {  bottom: 3px; left: 200px; position: absolute; border: 1px solid #95c2c2; width:30px; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .exportCSVIcon:hover {  }
+
+      .igualIcon { border: 0px; background-image:url(../images/botones/30x20/igual.png); width:33px; height:23px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .menorMayorIcon { border: 0px; background-image:url(../images/botones/30x20/menorMayor.png); width:33px; height:23px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .likeIcon { border: 0px; background-image:url(../images/botones/30x20/like.png); width:33px; height:23px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .mayorIcon { border: 0px; background-image:url(../images/botones/30x20/mayor.png); width:33px; height:23px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .mayorIgualIcon { border: 0px; background-image:url(../images/botones/30x20/mayorIgual.png); width:33px; height:23px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .andIcon { border: 0px; background-image:url(../images/botones/30x20/and.png); width:33px; height:23px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .menorIcon { border: 0px; background-image:url(../images/botones/30x20/menor.png); width:33px; height:23px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .menorIgualIcon { border: 0px; background-image:url(../images/botones/30x20/menorIgual.png); width:33px; height:23px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .orIcon { border: 0px; background-image:url(../images/botones/30x20/or.png); width:33px; height:23px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .porcientoIcon { border: 0px; background-image:url(../images/botones/30x20/porciento.png); width:33px; height:23px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .parentesisIcon { border: 0px; background-image:url(../images/botones/30x20/parentesis.png); width:33px; height:23px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .notIcon { border: 0px; background-image:url(../images/botones/30x20/not.png); width:33px; height:23px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .isIcon { border: 0px; background-image:url(../images/botones/30x20/is.png); width:33px; height:23px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .comillasIcon { border: 0px; background-image:url(../images/botones/30x20/comillas.png); width:33px; height:23px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .inIcon { border: 0px; background-image:url(../images/botones/30x20/in.png); width:33px; height:23px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+	 
+.ejecutarConsultaIcon { border: 0px; background-image:url(../images/botones/70x30/consultar.png); width:90px; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+.verTablaIcon { border: 0px; background-image:url(../images/botones/70x30/verTabla.png); width:90px; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+
+.frmProyectar{	width:550px; height:260px; position:absolute;visibility:hidden;}
+.proyectarIcon{background-image:url(../images/botones/70x30/proyectar.png);height:32px;width:93px;background-color: rgba(0, 0, 0, 0);background-position:center center;background-repeat: no-repeat;border:0 none;}
+.verPtoIcon{background-image:url(../images/botones/70x30/verpuntoMapa.png);height:32px;width:93px;background-color: rgba(0, 0, 0, 0);background-position:center center;background-repeat: no-repeat;border:0 none;}
+
+.frmDibujo{	width:320px; 	height: 75px !important; position:absolute;visibility:hidden;}
+	.dibujoPuntoIcon { border: 0px; background-image:url(../images/botones/22x22/punto.png); width:22px; height:22px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+	.dibujoLineaIcon { border: 0px; background-image:url(../images/botones/22x22/linea.png); width:22px; height:22px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+	.dibujoFlechaIcon { border: 0px; background-image:url(../images/botones/22x22/lineaDi.png); width:22px; height:22px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+	.dibujoLineaLibreIcon { border: 0px; background-image:url(../images/botones/22x22/lineaSuelta.png); width:22px; height:22px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+	.dibujoPoligonoIcon { border: 0px; background-image:url(../images/botones/22x22/poligono.png); width:22px; height:22px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+	.dibujoPoligonoLibreIcon { border: 0px; background-image:url(../images/botones/22x22/poligonoLibre.png); width:22px; height:22px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+	.dibujoRectanguloIcon { border: 0px; background-image:url(../images/botones/22x22/rectangulo.png); width:22px; height:22px; background-repeat:no-repeat; background-position:center; background-color:transparent; }	
+	.dibujoCirculoIcon { border: 0px; background-image:url(../images/botones/22x22/circulo.png); width:22px; height:22px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+	.dibujoTextoIcon { border: 0px; background-image:url(../images/botones/22x22/texto.png); width:22px; height:22px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+	.dibujoLimpiarIcon { border: 0px; background-image:url(../images/botones/22x22/limpiar.png); width:22px; height:22px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+	.dibujoSeleccionarIcon { border: 0px; background-image:url(../images/botones/22x22/seleccionar.png); width:22px; height:22px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+	.dibujoPuntoIcon:hover { background-image:url(../images/botones/22x22/punto_down.png);cursor: pointer;}
+	.dibujoLineaIcon:hover { background-image:url(../images/botones/22x22/linea_down.png);cursor: pointer;}
+	.dibujoFlechaIcon:hover { background-image:url(../images/botones/22x22/lineaDi_down.png); cursor: pointer;}
+	.dibujoLineaLibreIcon:hover { background-image:url(../images/botones/22x22/lineaSuelta_down.png); cursor: pointer;}
+	.dibujoPoligonoIcon:hover { background-image:url(../images/botones/22x22/poligono_down.png); cursor: pointer;}
+	.dibujoPoligonoLibreIcon:hover { background-image:url(../images/botones/22x22/poligonoLibre_down.png);cursor: pointer;}
+	.dibujoRectanguloIcon:hover { background-image:url(../images/botones/22x22/rectangulo_down.png); cursor: pointer;}
+	.dibujoCirculoIcon:hover { background-image:url(../images/botones/22x22/circulo_down.png); cursor: pointer;}
+	.dibujoTextoIcon:hover { background-image:url(../images/botones/22x22/texto_down.png);cursor: pointer; }
+	.dibujoLimpiarIcon:hover { background-image:url(../images/botones/22x22/limpiar_down.png);cursor: pointer;}
+	.dibujoSeleccionarIcon:hover { background-image:url(../images/botones/22x22/seleccionar_down.png); cursor: pointer;}
+
+.frmMedicion{position:absolute;visibility:hidden;width:295px;height:155px}
+
+      .queryAIcon { border: 1px solid #95c2c2; width:30px; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .queryGIcon { border: 1px solid #95c2c2; width:30px; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .queryLIcon { border: 1px solid #95c2c2; width:30px; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .queryCIcon { border: 1px solid #95c2c2; width:30px; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .queryAIcon:hover {  cursor: pointer;}
+      .queryGIcon:hover {cursor: pointer; }
+      .queryLIcon:hover { : pointer; }
+      .queryCIcon:hover { cursor: pointer;}
+
+ 
+      .imprimirIcon { border: 1px solid #95c2c2; width: 30px; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .exportarIcon { border: 1px solid #95c2c2; width:30px; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .dibujoIcon { border: 1px solid #95c2c2; width:30px; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .simbologiaIcon { border: 1px solid #95c2c2; width:30px; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .edicionIcon { border: 1px solid #95c2c2; width:30px; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .proyeccionIcon { border: 1px solid #95c2c2; ; width:30px; height:30px; background-repeat:no-repeat; background-position:center; background-color:transparent; }
+      .imprimirIcon:hover {  cursor: pointer;}
+      .exportarIcon:hover { cursor: pointer;}
+      .dibujoIcon:hover { cursor: pointer;}
+      .simbologiaIcon:hover {  cursor: pointer;}
+      .edicionIcon:hover {  cursor: pointer;}
+	  .proyeccionIcon:hover {  cursor: pointer;}
+.dynamicDiv{position:absolute;visibility:hidden;}
+.formulariosDiv{position:absolute;visibility:hidden;left:50px;top:50px;height: 50px;z-index: 1500}
+.buttonFormulario{ border: 1px solid #95c2c2;width:30px; height:30px;}
+.inDebug{position:absolute;visibility:hidden;left: 0;top:0;}
+
+.ayudas{margin: auto; position: absolute; width: 700px; height: 450px;left:0px;right:0px;top:0px;z-index: 1;bottom: 0px;display: none;visibility: hidden}
+.sombraAyuda{position:absolute;left: 0px;top:0px;width: 100%;z-index: 90;height: 100%; background: #666666;display: none;visibility: hidden; opacity: 0.7;}
+.ayudaCerrarIcon{position:absolute;width:30px;height:30px; right: 40px;top:35px;background-image:url(../images/ayudas/Iconos/Cerrar.png);background-position: center center;background-color: rgba(0, 0, 0, 0);background-repeat: no-repeat;border: 0 none;}
+.ayudaSiguienteIcon{position:absolute;width:30px;height:30px; right: 35px;top:45%;background-image:url(../images/ayudas/Iconos/Siguiente.png);background-position: center center;background-color: rgba(0, 0, 0, 0);background-repeat: no-repeat;border: 0 none;}
+.ayudaAnteriorIcon{position:absolute;width:30px; height:30px; left: 30px;top:45%;background-image:url(../images/ayudas/Iconos/Atras.png);background-position: center center;background-color: rgba(0, 0, 0, 0);background-repeat: no-repeat;border: 0 none;}
+.ayudaMenuIcon{position:absolute;width:30px; height:30px; right: 80px;top:35px;background-image:url(../images/ayudas/Iconos/Home.png);background-position: center center;background-color: rgba(0, 0, 0, 0);background-repeat: no-repeat;border: 0 none;}
+.ayudaCerrarIcon:hover{background-image:url(../images/ayudas/Iconos/Cerrar_.png);cursor: pointer;}
+.ayudaSiguienteIcon:hover{background-image:url(../images/ayudas/Iconos/Siguiente_.png);cursor: pointer;}
+.ayudaAnteriorIcon:hover{background-image:url(../images/ayudas/Iconos/Atras_.png);cursor: pointer;}
+.ayudaMenuIcon:hover{background-image:url(../images/ayudas/Iconos/Home_.png);cursor: pointer;}
+
+ 
+#borderContainer {
+  width: 100%;
+  height: 99%;
+  margin-bottom: -6px;
+}
+ .frmMultimenu{max-width: 197px;width: 0px; height: 333px; position:absolute;overflow:hidden;z-index: 202;top: 163px;left: 5px;background: #767676;}
+
+.divLocateButton {position: absolute; top: 8px; right: 60px; z-index: 50;}
+#LocateButton {position: absolute; top: 0px; right: 0px; z-index: 50;}
+#btnMultimenu {
+  background: rgba(115, 121, 116, 0.78);
+  position: absolute;
+  z-index: 200;
+  color: #fff;
+  width: 30px;
+  height: 37px;
+  top: 309px;
+  border: none;
+  left: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+}
+#divDerechosAutor{
+	  position: absolute;
+  z-index: 90;
+  width: auto;
+  
+	  height: 23px;
+  
+	  bottom: 0px;
+  font-size: 7px;
+  font-weight: bold;
+  
+	  right: 267px;
+  color: #000;
+  cursor: pointer;
+
+}
+
+#divDerechosAutor label {
+  color: #054E64;
+  background-color: rgba(240, 255, 255, 0);
+  padding: 2px;
+  border-radius: 3px;
+  font-size: 9px;
+}
+.boxFind{
+	display: none;
+}
